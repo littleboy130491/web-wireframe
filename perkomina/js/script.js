@@ -1,4 +1,4 @@
-// JavaScript for PERHIMPUNAN PERFORMA wireframe
+// JavaScript for PERKOMINA wireframe
 
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
