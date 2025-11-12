@@ -4,36 +4,41 @@ Quick prompts to generate professional website wireframes using AI assistants.
 
 ---
 
-## 🏗️ Create Project Structure
+## 🎨 Create Multi-Page Website
 
-**Brief Explanation**: Sets up the standard folder structure for web wireframe projects.
+**Brief Explanation**: Generates multiple interconnected wireframe pages from a sitemap.
 
 **Expected Input**:
-- Project name (optional)
-- Any specific folder requirements
+- Sitemap (markdown list or screenshot)
+- Navigation structure
+- Page hierarchy and flow
 
-**Output**: Complete folder structure with all necessary files and folders.
+**Output**: Multiple HTML wireframe files with consistent navigation and proper linking.
 
 **Prompt**:
 ```
-Create a web wireframe project with this structure:
+Create a multi-page website WIREFRAME from this sitemap:
 
-project-name/
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-└── assets/
-    ├── images/
-    ├── fonts/
-    └── other/
+[SITEMAP HERE - either markdown list or describe]
+
+This is a WIREFRAME project - not final designs. Use:
+- Placeholder content throughout
+- Simple, clean layouts
+- Basic Tailwind CSS styling
+- Focus on structure and navigation flow
+
+Pages to create:
+- [List all pages from sitemap]
 
 Requirements:
-- HTML5 semantic elements
-- Tailwind CSS CDN
-- Mobile-first responsive design
-- Proper meta tags and viewport
+- Split content logically into separate wireframe pages
+- Update all navigation links to point to correct pages
+- Maintain consistent header/footer across all wireframes
+- Add breadcrumbs where appropriate
+- Include responsive navigation with mobile menu
+- Use semantic HTML5 and basic Tailwind CSS
+
+Each wireframe page should demonstrate layout and user flow with placeholder content.
 ```
 
 ---
@@ -52,63 +57,36 @@ Requirements:
 
 **Prompt**:
 ```
-Create a [PAGE TYPE] page for [BRAND/PROJECT NAME]:
+Create a [PAGE TYPE] wireframe page for [BRAND/PROJECT NAME]:
+
+This is a WIREFRAME - not a final design. Use:
+- Placeholder content (Lorem Ipsum text)
+- Simple layout and structure
+- Basic styling with Tailwind CSS
+- Focus on functionality and layout, not visual design
 
 Content sections:
 - [List required sections]
 
 Style requirements:
-- Colors: [primary, secondary colors]
-- Typography: [font preferences]
+- Colors: [primary, secondary colors - simple palette only]
+- Typography: [basic font preferences]
 - Layout: [layout preferences]
 
 Features needed:
-- [List interactive features]
-- [Form requirements]
-- [Navigation requirements]
+- [List interactive features - basic functionality only]
+- [Form requirements - wireframe structure, not final forms]
 
-Use semantic HTML5, Tailwind CSS, and include responsive design with mobile menu.
+Create a functional wireframe that demonstrates layout and user flow.
 ```
 
 ---
 
-## 🎨 Create Multi-Page Website
 
-**Brief Explanation**: Generates multiple interconnected pages from a single-page design or sitemap.
-
-**Expected Input**:
-- Sitemap (markdown list or screenshot)
-- Original single-page HTML (if splitting existing)
-- Navigation structure
-- Page hierarchy and flow
-
-**Output**: Multiple HTML files with consistent navigation and proper linking.
-
-**Prompt**:
-```
-Create a multi-page website from this sitemap:
-
-[SITEMAP HERE - either markdown list or describe]
-
-Pages to create:
-- [List all pages from sitemap]
-
-Requirements:
-- Split content logically into separate pages
-- Update all navigation links to point to correct pages
-- Maintain consistent header/footer across all pages
-- Add breadcrumbs where appropriate
-- Include responsive navigation with mobile menu
-- Use semantic HTML5 and Tailwind CSS
-
-Each page should have unique content while keeping consistent branding.
-```
-
----
 
 ## 📝 Add Specific Section
 
-**Brief Explanation**: Adds a new content section to an existing page.
+**Brief Explanation**: Adds a new content section wireframe to an existing page.
 
 **Expected Input**:
 - Section type (hero, features, testimonials, etc.)
@@ -116,47 +94,49 @@ Each page should have unique content while keeping consistent branding.
 - Styling preferences
 - Placement in page
 
-**Output**: Complete section HTML with styling and any required JavaScript.
+**Output**: Complete section wireframe HTML with basic styling.
 
 **Prompt**:
 ```
-Add a [SECTION TYPE] section to the existing page:
+Add a [SECTION TYPE] wireframe section to the existing page:
+
+This is a WIREFRAME section - use placeholder content and simple styling.
 
 Section content:
-- [Describe content needed]
+- [Describe content structure needed]
 - [Number of items/cards]
-- [Required headings/text]
+- [Required headings/text structure]
 
 Styling:
-- [Color scheme]
+- [Color scheme - simple palette]
 - [Layout preferences]
-- [Animation requirements]
+- [Basic hover states if needed]
 
 Features:
-- [Interactive elements]
+- [Basic interactive elements]
 - [Responsive behavior]
-- [Accessibility requirements]
+- [Accessibility structure]
 
-Use semantic HTML5 and Tailwind CSS classes. Make it responsive and accessible.
+Use semantic HTML5 and basic Tailwind CSS classes. Create a functional wireframe section.
 ```
 
 ---
 
 ## 🔧 Fix/Modify Existing Code
 
-**Brief Explanation**: Modifies or fixes issues in existing HTML/CSS/JS code.
+**Brief Explanation**: Modifies or fixes issues in existing HTML/CSS/JS wireframe code.
 
 **Expected Input**:
-- The problematic code
+- The problematic wireframe code
 - Description of the issue
 - Desired outcome
 - Any constraints
 
-**Output**: Fixed code with explanation of changes.
+**Output**: Fixed wireframe code with explanation of changes.
 
 **Prompt**:
 ```
-Fix this [HTML/CSS/JS] code:
+Fix this [HTML/CSS/JS] wireframe code:
 
 [CODE HERE]
 
@@ -167,67 +147,29 @@ Issues:
 
 Requirements:
 - [Any constraints or preferences]
-- [Maintain existing functionality]
+- [Maintain existing wireframe functionality]
 - [Keep responsive design]
+- [Preserve wireframe nature - don't over-design]
 
-Provide the fixed code with brief explanation of changes made.
-```
-
----
-
-## 🎯 Create Component
-
-**Brief Explanation**: Creates a reusable component (card, form, modal, etc.).
-
-**Expected Input**:
-- Component type and purpose
-- Styling requirements
-- Interactive features needed
-- Responsive behavior
-
-**Output**: Complete component HTML with CSS and JavaScript if needed.
-
-**Prompt**:
-```
-Create a [COMPONENT TYPE] component:
-
-Purpose:
-- [What the component should do]
-- [Where it will be used]
-
-Content:
-- [Text/elements needed]
-- [Number of variations]
-
-Styling:
-- [Colors and design]
-- [Size and spacing]
-- [Hover/active states]
-
-Features:
-- [Interactive behavior]
-- [Responsive requirements]
-- [Accessibility needs]
-
-Make it reusable and follow semantic HTML5 with Tailwind CSS.
+Provide the fixed wireframe code with brief explanation of changes made.
 ```
 
 ---
 
 ## 📱 Optimize for Mobile
 
-**Brief Explanation**: Ensures existing design works perfectly on mobile devices.
+**Brief Explanation**: Ensures existing wireframe design works perfectly on mobile devices.
 
 **Expected Input**:
-- Current HTML/CSS code
+- Current HTML/CSS wireframe code
 - Specific mobile issues (if any)
 - Target breakpoints
 
-**Output**: Optimized code with mobile-first responsive design.
+**Output**: Optimized wireframe code with mobile-first responsive design.
 
 **Prompt**:
 ```
-Optimize this code for mobile devices:
+Optimize this wireframe code for mobile devices:
 
 [HTML/CSS CODE HERE]
 
@@ -240,8 +182,9 @@ Requirements:
 - Touch-friendly interactions
 - Proper breakpoints for tablet/mobile
 - Maintain desktop functionality
+- Keep wireframe simplicity - don't over-design for mobile
 
-Fix responsive issues and ensure great mobile UX.
+Fix responsive issues and ensure great mobile UX while maintaining wireframe aesthetic.
 ```
 
 ---
@@ -260,11 +203,9 @@ Fix responsive issues and ensure great mobile UX.
 - Provide existing code when modifying
 - Include brand colors in hex format
 - Specify exact content requirements
-- Mention target devices/browsers
 
 **Output Review**:
 - Check semantic HTML structure
 - Verify responsive behavior
 - Test interactive features
 - Validate accessibility
-- Ensure cross-browser compatibility
